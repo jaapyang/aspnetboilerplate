@@ -41,7 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="SimpleTaskSystemConsts.cs" />
+    <Compile Include="SimpleTaskSystemCoreModule.cs" />
+    <Compile Include="Tasks\ITaskRepository.cs" />
+    <Compile Include="Tasks\Task.cs" />
+    <Compile Include="Tasks\TaskState.cs" />
     <Compile Include="People\Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
